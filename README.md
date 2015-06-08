@@ -5,7 +5,7 @@
 The goal is to spawn a complete dockerized environment,  
 containing all necessary components for a PaaS,  
 fully transferable between any kind of development stage: laptop / integration / production,  
-highly robust, highly available, fail tolerance,  
+highly robust, highly available, fault tolerant,  
 where deployment part is fully independent from a running part.  
 Services supposed to be spawn in a second, fully scalable, easy to monitor, debug and orchestrate.
 
@@ -21,7 +21,7 @@ Services supposed to be spawn in a second, fully scalable, easy to monitor, debu
 
 ##### Master+Slave mode Container
 This is the default configuration, that starts all components inside container.  
-It is recommended to run 3 or 5 master containers to ensure high availability of the PasteraS cluster.
+It is recommended to run 3 or 5 master containers to ensure high availability of the PanteraS cluster.
 
 ![Master Mode](http://s3.amazonaws.com/easel.ly/all_easels/19186/MasterMode/image.jpg)
 
